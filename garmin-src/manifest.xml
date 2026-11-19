@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="a412b8c9d0e14f239a45b6c7d8e9f012"
+                    type="watch-app"
+                    name="@Strings.AppName"
+                    entry="SpkApp"
+                    launcherIcon="@Drawables.LauncherIcon"
+                    minApiLevel="4.2.0">
+        <iq:products>
+            <iq:product id="fenix7xpro"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+            <iq:uses-permission id="Positioning"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>pol</iq:language>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>

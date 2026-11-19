@@ -3,3 +3,13 @@
 __pycache__/
 *.log
 *.tmp
+
+# Garmin Connect IQ
+*.der
+*.pem
+*.prg
+*.iq
+garmin-src/bin/
+
+garmin-src/source/Config.mc
+garmin-src/local.mk
