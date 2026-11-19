@@ -40,7 +40,7 @@ class SpkGlanceView extends WatchUi.GlanceView {
 	dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(0, (h * 0.28).toNumber(), Graphics.FONT_XTINY, title, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(line2Color, Graphics.COLOR_TRANSPARENT);
         dc.drawText(0, (h * 0.72).toNumber(), Graphics.FONT_TINY, line2, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 }

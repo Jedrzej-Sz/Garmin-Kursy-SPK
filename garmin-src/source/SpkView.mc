@@ -67,9 +67,6 @@ class SpkView extends WatchUi.View {
                 dc.setColor(diffColor, Graphics.COLOR_TRANSPARENT);
                 dc.drawText(cx, (h * 0.42).toNumber(), Graphics.FONT_MEDIUM, firstDiff,
                     Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(cx, (h * 0.42).toNumber(), Graphics.FONT_MEDIUM, firstDiff,
-                    Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
                 dc.drawText(cx, (h * 0.53).toNumber(), Graphics.FONT_SMALL, firstTime,
