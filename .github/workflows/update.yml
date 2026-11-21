@@ -2,7 +2,7 @@ name: Update SPK Bus Schedule
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # Codziennie o 04:00 UTC (05:00/06:00 czasu PL)
+    - cron: '37 4 * * *'   # Codziennie o 04:00 UTC (05:00/06:00 czasu PL)
   workflow_dispatch:      # Przycisk do ręcznego odpalenia w zakładce Actions
 
 permissions:
